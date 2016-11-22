@@ -28,4 +28,8 @@ class ChartAsset extends AssetBundle
     public $css = [
         'c3.min.css'
     ];
+
+    public $depends = [
+        'yii\web\YiiAsset'
+    ];
 }
