@@ -32,5 +32,7 @@ class ChartAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
+        'rabadan731\chart\c3\PieAsset',
     ];
 }

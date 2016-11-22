@@ -15,7 +15,8 @@
   "require": {
     "yiisoft/yii2": "*",
     "yiisoft/yii2-bootstrap": "*",
-    "bower-asset/c3": "*"
+    "bower-asset/c3": "*",
+    "bower-asset/d3pie": "0.1.5"
   },
   "require-dev": {
   },
