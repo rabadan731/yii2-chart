@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class ChartNewAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/hscstudio/yii2-chart/ChartNew/';
+    public $sourcePath = '@bower/ChartNew/';
     public $css = [
     ];
     public $js = [

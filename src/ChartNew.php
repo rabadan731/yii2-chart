@@ -8,7 +8,6 @@
 namespace rabadan731\chartNew;
 
 use yii\bootstrap\Widget;
-use hscstudio\chart\ChartNewAsset;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 
@@ -21,7 +20,7 @@ use yii\helpers\Html;
  *
  * ```php
  *     <?php
- *         use hscstudio\chart\ChartNew;
+ *         use rabadan731\chartNew\ChartNew;
  *         echo ChartNew::widget([
  *             'type'=>'bar',
  *             'title'=>'PHP Framework',
