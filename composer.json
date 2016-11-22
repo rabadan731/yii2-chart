@@ -1,0 +1,26 @@
+{
+  "name": "rabadan731/yii2-chart-new",
+  "description": "Chart Extension for Yii 2.0 With ChartNewJs",
+  "keywords": ["yii2", "chart", "ChartNewJs", "rabadan731"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rabadan Akagasanov",
+      "email": "rabadan731@yandex.ru",
+      "homepage": "http://rabadan.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "bower-asset/chartnew": "~0.3.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "rabadan731\\chartNew\\": "src/"
+    }
+  }
+}
